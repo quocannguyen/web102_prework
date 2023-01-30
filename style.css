@@ -7,10 +7,12 @@ body {
 
 #tentacles {
     width: 50px;
+    object-fit: contain;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
     background-color: lightblue;
     padding: 1%;
     align-items: center;
@@ -72,4 +74,12 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#our-games-header:hover {
+    font-style: italic;
 }
